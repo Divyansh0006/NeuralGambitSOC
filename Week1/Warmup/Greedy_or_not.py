@@ -14,7 +14,6 @@ def main():
     for i in range(0,n):
         board.append(int(input()))
     difference = optimizer(0,n-1,board)
-    print (difference)
     if (difference > 0):
         print("Player 1 Wins")
     elif (difference == 0):
